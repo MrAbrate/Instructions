@@ -17,7 +17,7 @@
 email: mabrate@thevillageschool.com
 # description: >- # this means to ignore newlines until "baseurl:"
 #  This site is where you can find instructions for all of Mr. Abrate's technology class assignments.
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "/Instructions" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
 github_username:  jekyll
