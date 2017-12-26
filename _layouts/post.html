@@ -1,0 +1,24 @@
+---
+layout: default
+---
+<div class="container">
+  <article class="post">
+
+    <div class="post-header">
+      <h3 class="post-title">{{ page.title | escape }}</h3>
+      <p class="post-meta">
+        <time datetime="{{ page.date | date_to_xmlschema }}">
+          {% assign date_format = "%b %-d, %Y" %}
+          {{ page.date | date: date_format }}
+        </time>
+    </div>
+
+    <div class="post-content">
+      {{ content }}
+    </div>
+
+    {% if site.disqus.shortname %}
+      {% include disqus_comments.html %}
+    {% endif %}
+  </article>
+</div>
