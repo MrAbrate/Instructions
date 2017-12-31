@@ -6,18 +6,18 @@
 
 		<title>{{ page.title }}</title>
 
-		<link rel="stylesheet" href="/assets/css/reveal.css">
-		<link rel="stylesheet" href="/assets/css/theme/black.css">
+		<link rel="stylesheet" href="../assets/css/reveal.css">
+		<link rel="stylesheet" href="../assets/css/theme/black.css">
 
 		<!-- Theme used for syntax highlighting of code -->
-		<link rel="stylesheet" href="/assets/lib/css/purebasic.css">
+		<link rel="stylesheet" href="../assets/lib/css/purebasic.css">
 
 		<!-- Printing and PDF exports -->
 		<script>
 			var link = document.createElement( 'link' );
 			link.rel = 'stylesheet';
 			link.type = 'text/css';
-			link.href = window.location.search.match( /print-pdf/gi ) ? '/assets/css/print/pdf.css' : '/assets/css/print/paper.css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? '../assets/css/print/pdf.css' : '../assets/css/print/paper.css';
 			document.getElementsByTagName( 'head' )[0].appendChild( link );
 		</script>
 	</head>
@@ -28,8 +28,8 @@
 			</div>
 		</div>
 
-		<script src="/assets/lib/js/head.min.js"></script>
-		<script src="/assets/js/reveal.js"></script>
+		<script src="../assets/lib/js/head.min.js"></script>
+		<script src="../assets/js/reveal.js"></script>
 
 		<script>
 			// More info about config & dependencies:
@@ -37,10 +37,10 @@
 			// - https://github.com/hakimel/reveal.js#dependencies
 			Reveal.initialize({
 				dependencies: [
-					{ src: '/assets/plugin/markdown/marked.js' },
-					{ src: '/assets/plugin/markdown/markdown.js' },
-					{ src: '/assets/plugin/notes/notes.js', async: true },
-					{ src: '/assets/plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
+					{ src: '../assets/plugin/markdown/marked.js' },
+					{ src: '../assets/plugin/markdown/markdown.js' },
+					{ src: '../assets/plugin/notes/notes.js', async: true },
+					{ src: '../assets/plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
 				]
 			});
 		</script>
