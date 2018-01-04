@@ -13,7 +13,7 @@ You should have already joined this class on Google Classroom. Here's what we'll
 
 
 ## Typing Practice
-Visit [typing-assessmnet] and click play to learn your typing speed. Then read the next section to learn how to set up a Google Sheet to record your data.
+Visit <a target="blank" href="{{ '/vtype?e=tech-0' | relative_url }}">this link</a> and click play to learn your typing speed. Then read the next section to learn how to set up a Google Sheet to record your data.
 
 ## Creating a Google Sheet in Drive
 Everyone who has a Google account has a "**Google Drive**," where all of your files and information are stored. You can get to your Google Drive in a number of ways. One way is to simply type `drive.google.com` into your web browser's address bar.
@@ -36,6 +36,5 @@ Everyone who has a Google account has a "**Google Drive**," where all of your fi
 
 ![How to set up typing data log][setup-log]
 
-[typing-assessmnet]: <a target="_blank" href="{{ '/vtype?e=tech-0' | relative_url }}">this link</a>
 [create-sheet]: {{ '/assets/img/post-imgs/create-google-sheet.gif' | relative_url }}
 [setup-log]: {{ '/assets/img/post-imgs/set-up-typing-log.gif' | relative_url }}
