@@ -10,13 +10,15 @@ layout: default
     <ul>
       {% for post in site.posts %}
         <li>
-          <a href="{{ post.url | relative_url }}">
-            <span>{{ post.title }}</span><br>
-            <span>
-              {% assign date_format = "%b %-d, %Y" %}
-              {{ post.date | date: date_format }}
-            </span>
-          </a>
+          <p>
+            <a href="{{ post.url | relative_url }}">
+              <span>{{ post.title }}</span><br>
+              <span>
+                {% assign date_format = "%b %-d, %Y" %}
+                {{ post.date | date: date_format }}
+              </span>
+            </a>
+          </p>
         </li>
       {% endfor %}
     </ul>

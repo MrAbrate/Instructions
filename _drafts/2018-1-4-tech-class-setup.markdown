@@ -1,10 +1,15 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
-date:   2017-12-26 16:03:12 -0600
-categories: jekyll update
+title:  "Welcome to 6th Grade Technology Class!"
+date:   2018-01-03 00:00:00 -0600
+categories: grade6
 ---
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
+Welcome to Technology class. You should have already joined this class on Google Classroom. Here's what we'll be doing today.
+
+1. Learn what tech class is all about.
+2. Play a couple of short games to get to know each other.
+3. Set up some files and accounts for this class.
+4. Brainstorm ideas for a class website.
 
 To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
 
