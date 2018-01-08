@@ -3,3 +3,10 @@
 .reveal .slides section .fragment.highlight-current-orange.current-fragment {
   color: orange;
 }
+
+code {
+  padding: 5px;
+  pre > & {
+    padding: 16px;
+  }
+}

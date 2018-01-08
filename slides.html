@@ -1,0 +1,23 @@
+---
+layout: default
+title: Slides
+permalink: /slides/
+---
+<div class="container">
+  <ul>
+    {% assign sorted = site.slides | sort: 'date' | reverse %}
+    {% for deck in sorted %}
+      <li>
+        <p>
+          <a href="{{ deck.url | relative_url }}">
+            <span>{{ deck.title }}</span><br>
+            <span>
+              {% assign date_format = "%b %-d, %Y" %}
+              {{ deck.date | date: date_format }}
+            </span>
+          </a>
+        </p>
+      </li>
+    {% endfor %}
+  </ul>
+</div>

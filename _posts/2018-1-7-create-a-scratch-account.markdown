@@ -8,7 +8,7 @@ categories: scratch
 ## Objectives
 1. Create a Scratch account
 2. Verify your email
-3. Learn how to get started with Scratch
+3. Learn how to create your first Scratch project
 
 
 ## Create an account
