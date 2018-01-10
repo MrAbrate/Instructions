@@ -10,3 +10,19 @@ code {
     padding: 16px;
   }
 }
+
+
+.reveal section img {
+  &.plain {
+    background: transparent;
+  }
+  &.light {
+    background:white;
+    border-color: white;
+  }
+}
+
+.reveal section .small {
+  font-size: 0.67em;
+  color: #999;
+}
