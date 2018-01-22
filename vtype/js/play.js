@@ -101,7 +101,7 @@ function play(exerciseIndex) {
 
       const mistakeSum = scores.reduce((prev, score) => score.mistakes + prev, 0);
       const wordSum = scores.reduce((prev, score) => score.words + prev, 0);
-      const mistakeRate = (mistakeSum / (words * 5)) * 100;
+      const mistakeRate = (mistakeSum / (wordSum * 5)) * 100;
 
       submit({
         id:  getUrlParams('e'),
