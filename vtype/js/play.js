@@ -3,6 +3,7 @@ const userTyping = document.getElementById('user-typing');
 
 const scores = [];
 let exercises;
+let charCount;
 
 getExercises()
 .then(data => {
@@ -27,8 +28,10 @@ function play(exerciseIndex) {
     if (counter <= 0) {
       excerpt.textContent = str;
       userTyping.focus();
-      userTyping.addEventListener('keyup', onkeyup);
+      userTyping.addEventListener('input', oninput);
       userTyping.innerHTML = '';
+      charCount = 0;
+      mistakeLength = 0;
       start = new Date().getTime();
       return;
     }
@@ -39,8 +42,17 @@ function play(exerciseIndex) {
     }, 1000);
   }
 
-  function onkeyup(e) {
-    const text = userTyping.textContent.replace(String.fromCharCode(160), ' ');
+  function oninput(e) {
+    console.log("up")
+    let text = userTyping.textContent.replace(String.fromCharCode(160), ' ');
+
+    if (text.length > charCount + 1) {
+      userTyping.innerHTML = 'Cheaters never prosper';
+      text = userTyping.textContent.replace(String.fromCharCode(160), ' ');
+      charCount = text.length;
+    } else {
+      charCount = text.length;
+    }
 
     if (str.trim() === text.trim()) {
       complete();
@@ -66,6 +78,7 @@ function play(exerciseIndex) {
 
         break;
       }
+
       if (text[i] === undefined) {
         // User hasn't typed this letter yet
         // Mark the text in the paragraph to show that it has been typed
@@ -90,7 +103,7 @@ function play(exerciseIndex) {
 
     // Clean up
     excerpt.innerHTML = '';
-    userTyping.removeEventListener('keyup', onkeyup);
+    userTyping.removeEventListener('input', oninput);
 
 
     if (exercises[exerciseIndex + 1] === undefined) {
