@@ -7,5 +7,7 @@
 
   "You have all been doing a great job so far. We'll be doing an online course together at Codecademy.com. You can work with a partner or by yourself. This will be a really good foundation for us to start making things with HTML. After this typing exercise, there will be another one. Put your fingers on the home row and DON'T LOOK AT THEM.",
 
-  "The quick brown fox jumps over the lazy dog. Did you know that sentence has all 26 letters in the alphabet? Let's try it again. The quick brown fox jumps over the lazy dog! That's a pretty good sentence for typing practice. Today we are going to learn about Typography, also known as, the style and appearance of printed matter. We will also discuss the class website, and how we will be adding to it over the semester."
+  "The quick brown fox jumps over the lazy dog. Did you know that sentence has all 26 letters in the alphabet? Let's try it again. The quick brown fox jumps over the lazy dog! That's a pretty good sentence for typing practice. Today we are going to learn about Typography, also known as, the style and appearance of printed matter. We will also discuss the class website, and how we will be adding to it over the semester.",
+
+  "CSS (Cascading Style Sheets) is the code you use to style your webpage. How do I make my text black or red? How do I make my content show up in such-and-such a place on the screen? How do I decorate my webpage with background images and colors? Like HTML, CSS is not really a programming language. It is not a markup language either. It is a style sheet language. This means that it lets you apply styles selectively to elements in HTML documents."
 ]
